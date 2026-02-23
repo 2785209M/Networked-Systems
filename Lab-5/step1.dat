@@ -1,22 +1,9 @@
- 00:00:00.000000 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [SEW], seq 2687265183, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3652396230 ecr 0,sackOK,eol], length 0
- 00:00:00.013717 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [S.E], seq 2648910570, ack 2687265184, win 65160, options [mss 1380,sackOK,TS val 1395313631 ecr 3652396230,nop,wscale 7], length 0
- 00:00:00.013810 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1, win 2052, options [nop,nop,TS val 3652396243 ecr 1395313631], length 0
- 00:00:00.013929 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [P.], seq 1:324, ack 1, win 2052, options [nop,nop,TS val 3652396244 ecr 1395313631], length 323
- 00:00:00.027594 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], ack 324, win 507, options [nop,nop,TS val 1395313645 ecr 3652396244], length 0
- 00:00:00.071557 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1:1369, ack 324, win 507, options [nop,nop,TS val 1395313687 ecr 3652396244], length 1368
  00:00:00.071558 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1369:2737, ack 324, win 507, options [nop,nop,TS val 1395313687 ecr 3652396244], length 1368
  00:00:00.071569 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 2737:3648, ack 324, win 507, options [nop,nop,TS val 1395313687 ecr 3652396244], length 911
- 00:00:00.071681 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 3648, win 1996, options [nop,nop,TS val 3652396301 ecr 1395313687], length 0
- 00:00:00.075012 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 3648, win 2048, options [nop,nop,TS val 3652396305 ecr 1395313687], length 0
- 00:00:00.075350 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [P.], seq 324:330, ack 3648, win 2048, options [nop,nop,TS val 3652396305 ecr 1395313687], length 6
- 00:00:00.075437 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [P.], seq 330:388, ack 3648, win 2048, options [nop,nop,TS val 3652396305 ecr 1395313687], length 58
- 00:00:00.075692 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [P.], seq 388:526, ack 3648, win 2048, options [nop,nop,TS val 3652396305 ecr 1395313687], length 138
  00:00:00.091079 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], ack 330, win 507, options [nop,nop,TS val 1395313707 ecr 3652396305], length 0
  00:00:00.091290 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], ack 388, win 507, options [nop,nop,TS val 1395313707 ecr 3652396305], length 0
  00:00:00.091507 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 3648:3727, ack 388, win 507, options [nop,nop,TS val 1395313708 ecr 3652396305], length 79
- 00:00:00.091578 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 3727, win 2047, options [nop,nop,TS val 3652396321 ecr 1395313708], length 0
  00:00:00.091782 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 3727:3806, ack 388, win 507, options [nop,nop,TS val 1395313708 ecr 3652396305], length 79
- 00:00:00.092033 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 3806, win 2047, options [nop,nop,TS val 3652396322 ecr 1395313708], length 0
  00:00:00.094765 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 3806:5174, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
  00:00:00.094767 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 5174:6542, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
  00:00:00.094768 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 6542:7910, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
@@ -25,21 +12,16 @@
  00:00:00.094771 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 10646:12014, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
  00:00:00.094772 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 12014:13382, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
  00:00:00.094773 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 13382:14750, ack 526, win 506, options [nop,nop,TS val 1395313711 ecr 3652396305], length 1368
- 00:00:00.094914 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 14750, win 1877, options [nop,nop,TS val 3652396324 ecr 1395313711], length 0
- 00:00:00.095960 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 14750, win 2048, options [nop,nop,TS val 3652396326 ecr 1395313711], length 0
  00:00:00.106344 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 14750:16118, ack 526, win 506, options [nop,nop,TS val 1395313723 ecr 3652396321], length 1368
  00:00:00.106345 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 16118:17486, ack 526, win 506, options [nop,nop,TS val 1395313723 ecr 3652396321], length 1368
  00:00:00.106345 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 17486:18854, ack 526, win 506, options [nop,nop,TS val 1395313723 ecr 3652396322], length 1368
  00:00:00.106346 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 18854:20222, ack 526, win 506, options [nop,nop,TS val 1395313723 ecr 3652396322], length 1368
- 00:00:00.106437 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 20222, win 1963, options [nop,nop,TS val 3652396336 ecr 1395313723], length 0
- 00:00:00.106813 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 20222, win 2048, options [nop,nop,TS val 3652396336 ecr 1395313723], length 0
  00:00:00.108385 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 20222:21590, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108387 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 21590:22958, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108388 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 22958:24326, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108389 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 24326:25694, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108390 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 25694:27062, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108391 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 27062:28430, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
- 00:00:00.108495 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 28430, win 1920, options [nop,nop,TS val 3652396338 ecr 1395313726], length 0
  00:00:00.108716 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 28430:29798, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108718 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 29798:31166, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108719 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 31166:32534, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
@@ -50,35 +32,26 @@
  00:00:00.108724 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 38006:39374, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108725 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 39374:40742, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
  00:00:00.108726 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 40742:42110, ack 526, win 506, options [nop,nop,TS val 1395313726 ecr 3652396324], length 1368
- 00:00:00.108797 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 42110, win 1829, options [nop,nop,TS val 3652396338 ecr 1395313726], length 0
- 00:00:00.109109 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 42110, win 2048, options [nop,nop,TS val 3652396339 ecr 1395313726], length 0
  00:00:00.120086 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 42110:43478, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
  00:00:00.120087 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 43478:44846, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
  00:00:00.120088 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 44846:46214, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
  00:00:00.120089 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 46214:47582, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
  00:00:00.120090 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 47582:48950, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
  00:00:00.120091 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 48950:50318, ack 526, win 506, options [nop,nop,TS val 1395313737 ecr 3652396336], length 1368
- 00:00:00.120181 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 50318, win 1920, options [nop,nop,TS val 3652396350 ecr 1395313737], length 0
  00:00:00.120258 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 50318:51686, ack 526, win 506, options [nop,nop,TS val 1395313738 ecr 3652396336], length 1368
  00:00:00.120259 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 51686:53054, ack 526, win 506, options [nop,nop,TS val 1395313738 ecr 3652396336], length 1368
- 00:00:00.120298 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 53054, win 1909, options [nop,nop,TS val 3652396350 ecr 1395313738], length 0
- 00:00:00.120728 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 53054, win 2048, options [nop,nop,TS val 3652396350 ecr 1395313738], length 0
  00:00:00.121921 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 53054:54422, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.121922 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 54422:55790, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.121923 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 55790:57158, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.121924 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 57158:58526, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.121925 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 58526:59894, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
- 00:00:00.121968 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 59894, win 1942, options [nop,nop,TS val 3652396352 ecr 1395313739], length 0
- 00:00:00.122033 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 59894, win 2048, options [nop,nop,TS val 3652396352 ecr 1395313739], length 0
  00:00:00.122113 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 59894:61262, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
- 00:00:00.122134 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 61262, win 2027, options [nop,nop,TS val 3652396352 ecr 1395313739], length 0
  00:00:00.122570 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 61262:62630, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122571 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 62630:63998, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122572 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 63998:65366, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122573 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 65366:66734, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122574 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 66734:68102, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122575 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 68102:69470, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
- 00:00:00.122622 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 69470, win 1920, options [nop,nop,TS val 3652396352 ecr 1395313739], length 0
  00:00:00.122716 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 69470:70838, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122717 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 70838:72206, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122718 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 72206:73574, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
@@ -95,14 +68,10 @@
  00:00:00.122726 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 87254:88622, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122727 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 88622:89990, ack 526, win 506, options [nop,nop,TS val 1395313739 ecr 3652396338], length 1368
  00:00:00.122728 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 89990:91358, ack 526, win 506, options [nop,nop,TS val 1395313740 ecr 3652396338], length 1368
- 00:00:00.122750 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 84518, win 1793, options [nop,nop,TS val 3652396352 ecr 1395313739], length 0
- 00:00:00.122761 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 91358, win 1687, options [nop,nop,TS val 3652396352 ecr 1395313740], length 0
  00:00:00.122831 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 91358:92726, ack 526, win 506, options [nop,nop,TS val 1395313740 ecr 3652396338], length 1368
  00:00:00.122832 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 92726:94094, ack 526, win 506, options [nop,nop,TS val 1395313740 ecr 3652396338], length 1368
  00:00:00.122832 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 94094:95462, ack 526, win 506, options [nop,nop,TS val 1395313740 ecr 3652396338], length 1368
  00:00:00.122833 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 95462:96830, ack 526, win 506, options [nop,nop,TS val 1395313740 ecr 3652396338], length 1368
- 00:00:00.122853 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 96830, win 1726, options [nop,nop,TS val 3652396353 ecr 1395313740], length 0
- 00:00:00.123015 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 96830, win 2048, options [nop,nop,TS val 3652396353 ecr 1395313740], length 0
  00:00:00.133872 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 96830:98198, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
  00:00:00.133874 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 98198:99566, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
  00:00:00.133875 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 99566:100934, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
@@ -115,8 +84,6 @@
  00:00:00.133966 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 109142:110510, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
  00:00:00.133967 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 110510:111878, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
  00:00:00.134003 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 111878:113246, ack 526, win 506, options [nop,nop,TS val 1395313751 ecr 3652396350], length 1368
- 00:00:00.134004 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 109142, win 3481, options [nop,nop,TS val 3652396364 ecr 1395313751], length 0
- 00:00:00.134583 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 113246, win 3673, options [nop,nop,TS val 3652396364 ecr 1395313751], length 0
  00:00:00.135653 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 113246:114614, ack 526, win 506, options [nop,nop,TS val 1395313753 ecr 3652396352], length 1368
  00:00:00.135951 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 114614:115982, ack 526, win 506, options [nop,nop,TS val 1395313753 ecr 3652396352], length 1368
  00:00:00.135954 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 115982:117350, ack 526, win 506, options [nop,nop,TS val 1395313753 ecr 3652396352], length 1368
@@ -140,7 +107,6 @@
  00:00:00.136278 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 140606:141974, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
  00:00:00.136279 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 141974:143342, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
  00:00:00.136280 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 143342:144710, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
- 00:00:00.136582 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 144710, win 3673, options [nop,nop,TS val 3652396366 ecr 1395313753], length 0
  00:00:00.136961 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 144710:146078, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
  00:00:00.137099 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 146078:147446, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
  00:00:00.137100 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 147446:148814, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396352], length 1368
@@ -186,9 +152,6 @@
  00:00:00.137460 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 202166:203534, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396353], length 1368
  00:00:00.137461 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 203534:204902, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396353], length 1368
  00:00:00.137462 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 204902:206270, ack 526, win 506, options [nop,nop,TS val 1395313754 ecr 3652396353], length 1368
- 00:00:00.137503 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 204902, win 3166, options [nop,nop,TS val 3652396367 ecr 1395313754], length 0
- 00:00:00.137530 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 206270, win 3270, options [nop,nop,TS val 3652396367 ecr 1395313754], length 0
- 00:00:00.137890 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 206270, win 3673, options [nop,nop,TS val 3652396368 ecr 1395313754], length 0
  00:00:00.147497 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 206270:207638, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
  00:00:00.147571 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 207638:209006, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
  00:00:00.147572 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 209006:210374, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
@@ -203,8 +166,6 @@
  00:00:00.147583 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 221318:222686, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
  00:00:00.147584 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 222686:224054, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
  00:00:00.147606 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 224054:225422, ack 526, win 506, options [nop,nop,TS val 1395313765 ecr 3652396364], length 1368
- 00:00:00.147613 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 207638, win 6131, options [nop,nop,TS val 3652396377 ecr 1395313765], length 0
- 00:00:00.148027 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 225422, win 6152, options [nop,nop,TS val 3652396378 ecr 1395313765], length 0
  00:00:00.150486 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 225422:226790, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396366], length 1368
  00:00:00.150488 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 226790:228158, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396366], length 1368
  00:00:00.150489 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 228158:229526, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396366], length 1368
@@ -272,7 +233,6 @@
  00:00:00.152358 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 312974:314342, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.152360 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 314342:315710, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.152361 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 315710:317078, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
- 00:00:00.152456 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 317078, win 5272, options [nop,nop,TS val 3652396382 ecr 1395313768], length 0
  00:00:00.152616 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 317078:318446, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.152617 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 318446:319814, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.152618 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 319814:321182, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
@@ -331,7 +291,6 @@
  00:00:00.153246 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 392318:393686, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.153246 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 393686:395054, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.153247 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 395054:396422, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
- 00:00:00.153341 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 389582, win 4264, options [nop,nop,TS val 3652396383 ecr 1395313768], length 0
  00:00:00.153389 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 396422:397790, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.153390 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 397790:399158, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
  00:00:00.153391 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 399158:400526, ack 526, win 506, options [nop,nop,TS val 1395313768 ecr 3652396367], length 1368
@@ -353,11 +312,8 @@
  00:00:00.153570 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 419678:421046, ack 526, win 506, options [nop,nop,TS val 1395313769 ecr 3652396368], length 1368
  00:00:00.153571 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 421046:422414, ack 526, win 506, options [nop,nop,TS val 1395313769 ecr 3652396368], length 1368
  00:00:00.153571 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 422414:423782, ack 526, win 506, options [nop,nop,TS val 1395313769 ecr 3652396368], length 1368
- 00:00:00.155622 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 423782, win 5359, options [nop,nop,TS val 3652396385 ecr 1395313768], length 0
- 00:00:00.156419 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 423782, win 6152, options [nop,nop,TS val 3652396386 ecr 1395313768], length 0
  00:00:00.161211 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 423782:425150, ack 526, win 506, options [nop,nop,TS val 1395313778 ecr 3652396377], length 1368
  00:00:00.161212 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 425150:426518, ack 526, win 506, options [nop,nop,TS val 1395313778 ecr 3652396377], length 1368
- 00:00:00.161310 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 426518, win 13634, options [nop,nop,TS val 3652396391 ecr 1395313778], length 0
  00:00:00.161580 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 426518:427886, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
  00:00:00.161581 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 427886:429254, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
  00:00:00.161582 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 429254:430622, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
@@ -381,7 +337,6 @@
  00:00:00.161783 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 453878:455246, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
  00:00:00.161821 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 455246:456614, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
  00:00:00.161821 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 456614:457982, ack 526, win 506, options [nop,nop,TS val 1395313779 ecr 3652396378], length 1368
- 00:00:00.162196 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 457982, win 13676, options [nop,nop,TS val 3652396392 ecr 1395313779], length 0
  00:00:00.165965 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 457982:459350, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.165966 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 459350:460718, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.165967 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 460718:462086, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
@@ -395,7 +350,6 @@
  00:00:00.165973 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 471662:473030, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166181 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 473030:474398, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166182 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 474398:475766, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
- 00:00:00.166371 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 475766, win 13676, options [nop,nop,TS val 3652396396 ecr 1395313783], length 0
  00:00:00.166603 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 475766:477134, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166604 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 477134:478502, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166604 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 478502:479870, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
@@ -414,7 +368,6 @@
  00:00:00.166616 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 496286:497654, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166884 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 497654:499022, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.166885 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 499022:500390, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
- 00:00:00.167102 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 500390, win 13676, options [nop,nop,TS val 3652396397 ecr 1395313783], length 0
  00:00:00.167324 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 500390:501758, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.167325 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 501758:503126, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
  00:00:00.167326 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 503126:504494, ack 526, win 506, options [nop,nop,TS val 1395313783 ecr 3652396382], length 1368
@@ -573,7 +526,6 @@
  00:00:00.170163 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 711062:712430, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170163 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 712430:713798, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170164 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 713798:715166, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
- 00:00:00.170234 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 715166, win 13093, options [nop,nop,TS val 3652396400 ecr 1395313783], length 0
  00:00:00.170425 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 715166:716534, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170425 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 716534:717902, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170427 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 717902:719270, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
@@ -582,10 +534,8 @@
  00:00:00.170429 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 722006:723374, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170430 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 723374:724742, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170431 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 724742:726110, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
- 00:00:00.170475 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 726110, win 13173, options [nop,nop,TS val 3652396400 ecr 1395313786], length 0
  00:00:00.170686 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 726110:727478, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170687 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 727478:728846, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
- 00:00:00.170727 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 728846, win 13381, options [nop,nop,TS val 3652396400 ecr 1395313786], length 0
  00:00:00.170816 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 728846:730214, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170817 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 730214:731582, ack 526, win 506, options [nop,nop,TS val 1395313786 ecr 3652396385], length 1368
  00:00:00.170818 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 731582:732950, ack 526, win 506, options [nop,nop,TS val 1395313787 ecr 3652396385], length 1368
@@ -641,9 +591,7 @@
  00:00:00.171398 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 799982:801350, ack 526, win 506, options [nop,nop,TS val 1395313787 ecr 3652396386], length 1368
  00:00:00.171398 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 801350:802718, ack 526, win 506, options [nop,nop,TS val 1395313787 ecr 3652396386], length 1368
  00:00:00.171399 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 802718:804086, ack 526, win 506, options [nop,nop,TS val 1395313787 ecr 3652396386], length 1368
- 00:00:00.172146 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 804086, win 13676, options [nop,nop,TS val 3652396402 ecr 1395313787], length 0
  00:00:00.174567 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 804086:805454, ack 526, win 506, options [nop,nop,TS val 1395313792 ecr 3652396391], length 1368
- 00:00:00.174670 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 805454, win 23659, options [nop,nop,TS val 3652396404 ecr 1395313792], length 0
  00:00:00.174784 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 805454:806822, ack 526, win 506, options [nop,nop,TS val 1395313792 ecr 3652396391], length 1368
  00:00:00.174786 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 806822:808190, ack 526, win 506, options [nop,nop,TS val 1395313792 ecr 3652396391], length 1368
  00:00:00.174786 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 808190:809558, ack 526, win 506, options [nop,nop,TS val 1395313792 ecr 3652396391], length 1368
@@ -690,11 +638,9 @@
  00:00:00.175609 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 864278:865646, ack 526, win 506, options [nop,nop,TS val 1395313793 ecr 3652396392], length 1368
  00:00:00.175610 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 865646:867014, ack 526, win 506, options [nop,nop,TS val 1395313793 ecr 3652396392], length 1368
  00:00:00.175611 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 867014:868382, ack 526, win 506, options [nop,nop,TS val 1395313793 ecr 3652396392], length 1368
- 00:00:00.175744 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 868382, win 23680, options [nop,nop,TS val 3652396405 ecr 1395313792], length 0
  00:00:00.181124 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 868382:869750, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181125 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 869750:871118, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181205 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 871118:872486, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
- 00:00:00.181504 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 872486, win 23680, options [nop,nop,TS val 3652396411 ecr 1395313798], length 0
  00:00:00.181522 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 872486:873854, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181522 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 873854:875222, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181523 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 875222:876590, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
@@ -721,11 +667,8 @@
  00:00:00.181751 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 903950:905318, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181752 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 905318:906686, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.181754 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 906686:908054, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
- 00:00:00.181808 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 894374, win 23680, options [nop,nop,TS val 3652396411 ecr 1395313798], length 0
- 00:00:00.182060 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 908054, win 23680, options [nop,nop,TS val 3652396412 ecr 1395313798], length 0
  00:00:00.182150 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 908054:909422, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.182151 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 909422:910790, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
- 00:00:00.182346 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 910790, win 23680, options [nop,nop,TS val 3652396412 ecr 1395313798], length 0
  00:00:00.182398 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 910790:912158, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.182399 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 912158:913526, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
  00:00:00.182400 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 913526:914894, ack 526, win 506, options [nop,nop,TS val 1395313798 ecr 3652396396], length 1368
@@ -789,7 +732,6 @@
  00:00:00.182922 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 992870:994238, ack 526, win 506, options [nop,nop,TS val 1395313799 ecr 3652396397], length 1368
  00:00:00.182923 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 994238:995606, ack 526, win 506, options [nop,nop,TS val 1395313799 ecr 3652396397], length 1368
  00:00:00.182924 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 995606:996974, ack 526, win 506, options [nop,nop,TS val 1395313799 ecr 3652396397], length 1368
- 00:00:00.183392 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 996974, win 23680, options [nop,nop,TS val 3652396413 ecr 1395313798], length 0
  00:00:00.184020 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 996974:998342, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184021 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 998342:999710, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184022 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 999710:1001078, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
@@ -804,7 +746,6 @@
  00:00:00.184028 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1012022:1013390, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184029 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1013390:1014758, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184213 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1014758:1016126, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
- 00:00:00.184378 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1016126, win 23680, options [nop,nop,TS val 3652396414 ecr 1395313801], length 0
  00:00:00.184456 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1016126:1017494, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184457 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1017494:1018862, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184457 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1018862:1020230, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
@@ -815,7 +756,6 @@
  00:00:00.184461 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1025702:1027070, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184462 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1027070:1028438, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.184462 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1028438:1029806, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
- 00:00:00.184717 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1029806, win 23680, options [nop,nop,TS val 3652396414 ecr 1395313801], length 0
  00:00:00.184801 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1029806:1031174, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185254 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1031174:1032542, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185255 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1032542:1033910, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
@@ -843,7 +783,6 @@
  00:00:00.185462 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1062638:1064006, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185463 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1064006:1065374, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185464 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1065374:1066742, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
- 00:00:00.185812 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1066742, win 23680, options [nop,nop,TS val 3652396415 ecr 1395313801], length 0
  00:00:00.185908 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1066742:1068110, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185909 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1068110:1069478, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.185910 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1069478:1070846, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
@@ -857,7 +796,6 @@
  00:00:00.185918 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1080422:1081790, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.186100 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1081790:1083158, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.186101 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1083158:1084526, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
- 00:00:00.186311 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1084526, win 23680, options [nop,nop,TS val 3652396416 ecr 1395313801], length 0
  00:00:00.186328 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1084526:1085894, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.186329 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1085894:1087262, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
  00:00:00.186329 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1087262:1088630, ack 526, win 506, options [nop,nop,TS val 1395313801 ecr 3652396400], length 1368
@@ -1012,9 +950,7 @@
  00:00:00.188957 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1352654:1354022, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.188958 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1354022:1355390, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.188959 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1355390:1356758, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189024 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23062, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1356758}], length 0
  00:00:00.189035 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1356758:1358126, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189057 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23187, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1358126}], length 0
  00:00:00.189302 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1358126:1359494, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189303 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1359494:1360862, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189303 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1360862:1362230, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
@@ -1022,15 +958,10 @@
  00:00:00.189305 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1363598:1364966, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189306 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1364966:1366334, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189306 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1366334:1367702, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189334 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23563, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1367702}], length 0
- 00:00:00.189341 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1367702}], length 0
  00:00:00.189354 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1367702:1369070, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189363 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1369070}], length 0
  00:00:00.189477 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1369070:1370438, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189478 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1370438:1371806, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189489 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1371806}], length 0
  00:00:00.189523 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1371806:1373174, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189532 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1373174}], length 0
  00:00:00.189626 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1373174:1374542, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189627 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1374542:1375910, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189628 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1375910:1377278, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
@@ -1045,8 +976,6 @@
  00:00:00.189635 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1388222:1389590, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189635 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1389590:1390958, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189636 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1390958:1392326, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189656 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1388222}], length 0
- 00:00:00.189664 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1392326}], length 0
  00:00:00.189709 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1392326:1393694, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189710 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1393694:1395062, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189711 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1395062:1396430, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
@@ -1055,9 +984,7 @@
  00:00:00.189713 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1399166:1400534, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189714 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1400534:1401902, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.189715 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1401902:1403270, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189728 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396419 ecr 1395313801,nop,nop,sack 1 {1348550:1403270}], length 0
  00:00:00.189952 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1403270:1404638, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
- 00:00:00.189964 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 1 {1348550:1404638}], length 0
  00:00:00.190030 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1404638:1406006, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.190031 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1406006:1407374, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.190032 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1407374:1408742, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
@@ -1074,25 +1001,13 @@
  00:00:00.190041 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1423790:1425158, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.190042 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1433366:1434734, ack 526, win 506, options [nop,nop,TS val 1395313802 ecr 3652396400], length 1368
  00:00:00.190043 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1523654:1525022, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
- 00:00:00.190062 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 1 {1348550:1419686}], length 0
- 00:00:00.190072 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 1 {1348550:1422422}], length 0
- 00:00:00.190078 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 2 {1423790:1425158}{1348550:1422422}], length 0
- 00:00:00.190083 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1433366:1434734}{1423790:1425158}{1348550:1422422}], length 0
- 00:00:00.190088 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1523654:1525022}{1433366:1434734}{1423790:1425158}], length 0
  00:00:00.190137 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1531862:1533230, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
- 00:00:00.190150 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1531862:1533230}{1523654:1525022}{1433366:1434734}], length 0
  00:00:00.190196 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1540070:1541438, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
  00:00:00.190197 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1551014:1552382, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
  00:00:00.190198 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1553750:1555118, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
  00:00:00.190199 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1559222:1560590, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
  00:00:00.190200 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1567430:1568798, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
  00:00:00.190201 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1574270:1575638, ack 526, win 506, options [nop,nop,TS val 1395313803 ecr 3652396402], length 1368
- 00:00:00.190247 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1540070:1541438}{1531862:1533230}{1523654:1525022}], length 0
- 00:00:00.190258 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1551014:1552382}{1540070:1541438}{1531862:1533230}], length 0
- 00:00:00.190265 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1553750:1555118}{1551014:1552382}{1540070:1541438}], length 0
- 00:00:00.190271 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1559222:1560590}{1553750:1555118}{1551014:1552382}], length 0
- 00:00:00.190276 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1567430:1568798}{1559222:1560590}{1553750:1555118}], length 0
- 00:00:00.190281 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 23680, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1575638}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190300 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1575638:1577006, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190423 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1577006:1578374, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190424 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1578374:1579742, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
@@ -1106,10 +1021,7 @@
  00:00:00.190430 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1589318:1590686, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190431 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1590686:1592054, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190432 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1592054:1593422, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190433 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1577006}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190433 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1593422:1594790, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190456 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1592054}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.190464 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1594790}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190530 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1594790:1596158, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190530 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1596158:1597526, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190531 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1597526:1598894, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
@@ -1120,10 +1032,8 @@
  00:00:00.190535 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1604366:1605734, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190536 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1605734:1607102, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190537 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1607102:1608470, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190554 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1608470}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190647 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1608470:1609838, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190647 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1609838:1611206, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190661 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1611206}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190785 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1611206:1612574, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190786 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1612574:1613942, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190786 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1613942:1615310, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
@@ -1133,10 +1043,8 @@
  00:00:00.190790 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1619414:1620782, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190791 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1620782:1622150, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190792 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1622150:1623518, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190807 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396420 ecr 1395313801,nop,nop,sack 3 {1574270:1623518}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190864 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1623518:1624886, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
  00:00:00.190865 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1624886:1626254, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396404], length 1368
- 00:00:00.190877 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1626254}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.190902 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1626254:1627622, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.190903 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1627622:1628990, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.190904 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1628990:1630358, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
@@ -1153,8 +1061,6 @@
  00:00:00.190912 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1644038:1645406, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.190913 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1645406:1646774, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.190914 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1646774:1648142, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
- 00:00:00.190932 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1641302}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.190940 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1648142}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.191025 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1648142:1649510, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191025 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1649510:1650878, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191026 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1650878:1652246, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
@@ -1165,11 +1071,9 @@
  00:00:00.191031 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1657718:1659086, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191031 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1659086:1660454, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191032 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1660454:1661822, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
- 00:00:00.191048 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1661822}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.191096 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1661822:1663190, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191097 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1663190:1664558, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191097 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1664558:1665926, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
- 00:00:00.191110 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1665926}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.191194 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1665926:1667294, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191195 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1667294:1668662, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191196 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1668662:1670030, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
@@ -1177,11 +1081,9 @@
  00:00:00.191198 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1671398:1672766, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191198 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1672766:1674134, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191199 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1674134:1675502, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
- 00:00:00.191230 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1675502}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.191292 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1675502:1676870, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191293 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1676870:1678238, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191293 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1678238:1679606, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
- 00:00:00.191307 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1679606}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.191367 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1679606:1680974, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191368 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1680974:1682342, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191369 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1682342:1683710, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
@@ -1197,16 +1099,11 @@
  00:00:00.191376 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1696022:1697390, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191377 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1697390:1698758, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1368
  00:00:00.191377 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1698758:1700072, ack 526, win 506, options [nop,nop,TS val 1395313806 ecr 3652396405], length 1314
- 00:00:00.191396 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1694654}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.191406 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1286990, win 35650, options [nop,nop,TS val 3652396421 ecr 1395313801,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.202832 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1286990:1288358, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.202833 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1288358:1289726, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.202833 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1289726:1291094, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.202834 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1291094:1292462, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.202862 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1292462, win 35565, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.203002 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1292462, win 35650, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203105 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1292462:1293830, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203127 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1293830, win 35629, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203348 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1293830:1295198, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203349 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1295198:1296566, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203350 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1296566:1297934, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
@@ -1222,8 +1119,6 @@
  00:00:00.203358 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1310246:1311614, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203359 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1311614:1312982, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203360 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1312982:1314350, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203392 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1308878, win 35415, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.203406 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1314350, win 35330, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203494 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1314350:1315718, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203494 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1315718:1317086, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203495 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1317086:1318454, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
@@ -1231,9 +1126,7 @@
  00:00:00.203497 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1319822:1321190, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203497 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1321190:1322558, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203498 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1322558:1323926, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203520 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1323926, win 35206, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203677 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1323926:1325294, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203699 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1325294, win 35436, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203718 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1325294:1326662, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203719 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1326662:1328030, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203720 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1328030:1329398, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
@@ -1249,13 +1142,9 @@
  00:00:00.203727 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1341710:1343078, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203727 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1343078:1344446, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203728 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1344446:1345814, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203752 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1340342, win 35201, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.203762 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1345814, win 35116, options [nop,nop,TS val 3652396433 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.203838 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1345814:1347182, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
  00:00:00.203839 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1347182:1348550, ack 526, win 506, options [nop,nop,TS val 1395313820 ecr 3652396419], length 1368
- 00:00:00.203861 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1422422, win 34043, options [nop,nop,TS val 3652396434 ecr 1395313820,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.204427 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1422422:1423790, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.204448 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1425158, win 35129, options [nop,nop,TS val 3652396434 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.204667 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1425158:1426526, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.204668 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1426526:1427894, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.204668 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1427894:1429262, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1264,11 +1153,7 @@
  00:00:00.204671 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1431998:1433366, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.204672 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1434734:1436102, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.204672 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1436102:1437470, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.204694 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1434734, win 35481, options [nop,nop,TS val 3652396434 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.204711 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1437470, win 35439, options [nop,nop,TS val 3652396434 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.204793 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1437470, win 35650, options [nop,nop,TS val 3652396434 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.204808 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1437470:1438838, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.204826 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1438838, win 35629, options [nop,nop,TS val 3652396434 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.205082 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1438838:1440206, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205083 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1440206:1441574, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205083 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1441574:1442942, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1279,10 +1164,7 @@
  00:00:00.205087 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1448414:1449782, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205087 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1449782:1451150, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205088 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1451150:1452518, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.205112 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1452518, win 35436, options [nop,nop,TS val 3652396435 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.205279 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1452518:1453886, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.205304 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1452518, win 35650, options [nop,nop,TS val 3652396435 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.205313 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1453886, win 35629, options [nop,nop,TS val 3652396435 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.205885 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1453886:1455254, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205886 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1455254:1456622, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205887 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1456622:1457990, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1299,8 +1181,6 @@
  00:00:00.205896 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1471670:1473038, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205897 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1473038:1474406, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205898 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1474406:1475774, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.205921 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1468934, win 35415, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.205939 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1475774, win 35309, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.205982 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1475774:1477142, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205983 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1477142:1478510, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205983 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1478510:1479878, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1310,7 +1190,6 @@
  00:00:00.205986 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1483982:1485350, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205987 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1485350:1486718, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.205988 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1486718:1488086, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.206007 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1488086, win 35148, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.206047 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1488086:1489454, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206047 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1489454:1490822, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206048 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1490822:1492190, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1324,10 +1203,7 @@
  00:00:00.206054 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1501766:1503134, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206055 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1503134:1504502, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206055 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1504502:1505870, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.206076 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1503134, win 35039, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206085 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1505870, win 34997, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.206135 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1505870:1507238, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.206148 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1507238, win 35100, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.206249 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1507238:1508606, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206250 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1508606:1509974, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206250 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1509974:1511342, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1344,9 +1220,6 @@
  00:00:00.206259 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1526390:1527758, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206260 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1527758:1529126, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206260 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1529126:1530494, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
- 00:00:00.206285 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1522286, win 34990, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206302 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1525022, win 34948, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206310 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1530494, win 34987, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.206418 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1530494:1531862, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206419 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1533230:1534598, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206420 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1534598:1535966, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
@@ -1363,15 +1236,8 @@
  00:00:00.206438 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1552382:1553750, ack 526, win 506, options [nop,nop,TS val 1395313822 ecr 3652396420], length 1368
  00:00:00.206439 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1555118:1556486, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206439 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1556486:1557854, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
- 00:00:00.206474 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1533230, win 35070, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206492 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1541438, win 35067, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206501 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1552382, win 34896, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206508 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1555118, win 34854, options [nop,nop,TS val 3652396436 ecr 1395313822,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
- 00:00:00.206515 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1557854, win 34812, options [nop,nop,TS val 3652396436 ecr 1395313823,nop,nop,sack 3 {1574270:1700072}{1567430:1568798}{1559222:1560590}], length 0
  00:00:00.206548 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1557854:1559222, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206549 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1560590:1561958, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
- 00:00:00.206567 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1560590, win 34770, options [nop,nop,TS val 3652396436 ecr 1395313823,nop,nop,sack 2 {1574270:1700072}{1567430:1568798}], length 0
- 00:00:00.206579 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1561958, win 34871, options [nop,nop,TS val 3652396436 ecr 1395313823,nop,nop,sack 2 {1574270:1700072}{1567430:1568798}], length 0
  00:00:00.206641 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1561958:1563326, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206641 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1563326:1564694, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206642 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1564694:1566062, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
@@ -1379,11 +1245,3 @@
  00:00:00.206643 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1568798:1570166, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206644 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1570166:1571534, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
  00:00:00.206644 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [.], seq 1571534:1572902, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
- 00:00:00.206645 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.], seq 1572902:1574270, ack 526, win 506, options [nop,nop,TS val 1395313823 ecr 3652396420], length 1368
- 00:00:00.206667 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1568798, win 34765, options [nop,nop,TS val 3652396436 ecr 1395313823,nop,nop,sack 1 {1574270:1700072}], length 0
- 00:00:00.206684 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1700072, win 32714, options [nop,nop,TS val 3652396436 ecr 1395313823], length 0
- 00:00:00.208229 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [.], ack 1700072, win 35650, options [nop,nop,TS val 3652396438 ecr 1395313823], length 0
- 00:00:00.209014 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [P.], seq 526:550, ack 1700072, win 35650, options [nop,nop,TS val 3652396439 ecr 1395313823], length 24
- 00:00:00.210139 IP mangole.dcs.gla.ac.uk.52088 > yali.mythic-beasts.com.https: Flags [F.], seq 550, ack 1700072, win 35650, options [nop,nop,TS val 3652396440 ecr 1395313823], length 0
- 00:00:00.222335 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [P.W], seq 1700072:1700096, ack 550, win 506, options [nop,nop,TS val 1395313840 ecr 3652396439], length 24
- 00:00:00.222736 IP yali.mythic-beasts.com.https > mangole.dcs.gla.ac.uk.52088: Flags [F.], seq 1700096, ack 550, win 506, options [nop,nop,TS val 1395313840 ecr 3652396439], length 0
