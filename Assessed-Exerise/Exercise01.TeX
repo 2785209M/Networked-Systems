@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.5in}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{James Henrik Middleton}} \\
+\end{center}
+
+\noindent\rule{\linewidth}{0.1pt}
+\hfill
+
+\section*{Exercise 1}
+
+\subsection*{Question 1}
+\begin{flushleft}
+IP Address of Client: 130.209.247.112 \\
+IP Address of Server: 93.93.131.127
+\end{flushleft}
+
+\section*{Question 2}
+\begin{flushleft}
+Client seq: 2687265183 \\
+Server Seq: 2648910570
+\end{flushleft}
+
+\section*{Question 3}
+\begin{flushleft}
+Round Trip Time: 0.013717 seconds
+\end{flushleft}
+
+\section*{Question 4}
+\begin{flushleft}
+An acknowledgement in the TCP protocol is a signal sent from the receiver to the transmitter to indicate that a packet of data has been received.
+When a connection is established an acknowledgement handshake between the client and the server must be performed. The client transmits a random initial sequence number (SYN),
+the server receives this and sends back an acknowledgement alongside its own random sequence number (SYN-ACK), and finally the client sends back its own acknowledgement (ACK), completing the handshake.
+Once the hanshake is completed the client and server can each send and recieve data. In standard TCP, if data is sent but no acknowledgement is received, it creates a timeout.
+This indicates packet loss and causes the transmitter to go backwards, retransmitting packets until it recieves acknowledgement of the missing packet. This can take time. TCP selective acknowledgement improves TCP congestion control by removing
+the necessity to retransmit large sequences of data. If one piece of data is missing, the receiver will send an ACK telling the transmitter what it has, and what it doesn't have. This allows the transmitter to only retransmit what is needed.
+This improves the efficiency of congestion control in TCP, requiring less bandwidth, using less energy, and taking less time.
+\end{flushleft}
+
+\section*{Question 5}
+\begin{flushleft}
+
+\end{flushleft}
+
+\end{document}
