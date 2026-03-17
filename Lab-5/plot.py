@@ -7,14 +7,15 @@ with open("lab05-timeseq.dat") as f:
     for line in f:
         t, s = line.split()
         seq = int(s)
-        if seq > 1_000_000:
+        if seq > 2_000_000:
             continue  # skip absolute seq number (SYN-ACK)
         hh, mm, ss = t.split(":")
         total_seconds = int(hh) * 3600 + int(mm) * 60 + float(ss)
         times.append(total_seconds)
         seqs.append(seq)
 
-plt.plot(times, seqs, marker=".", markersize=1 ,linewidth="1")
+plt.xlim(0, 0.25)
+plt.plot(times, seqs, marker=".", markersize=1 ,linewidth="0.1")
 plt.xlabel("Time (s)")
 plt.ylabel("Last sequence number")
 plt.title("Sequence vs Time")
